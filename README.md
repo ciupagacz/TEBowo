@@ -1,25 +1,30 @@
-![banner](https://github.com/CiupagaPL/CiupagaPL/blob/main/src/tebowy_dzien.png)
-# TEBOWY DZIEŃ: [STABLE](https://github.com/CiupagaPL/Tebowy_Dzien/tree/stable); [UNSTABLE](https://github.com/CiupagaPL/Tebowy_Dzien/tree/unstable)
+![TEBowo](https://github.com/ciupagacz/ciupagacz/blob/main/src/TEBowo.png)
 
-## Notka [PL]
-### Podstawowe
-Pierwsza Beta **TEBowego Dnia** mocno zmieniła rozgrywkę, o ile zostawiła za sobą wiele problemów.
-Patche same w sobie były nie wystarczające.
-Nowa Beta zajęła się wszystkimi obecnymi problemami oraz brakującymi wcześniej dodatkami.
-### Przyszłość Projektu
-Na ten moment skupie się tylko i wyłącznie na drobnych poprawkach i wypoczynku.
-Do regularnej pracy nad projektem wrócę po jakimś czasie :-PP
+<div align="center">
+    branch:
+    <a href="https://github.com/ciupagacz/TEBowo/tree/stable">[stable]</a>
+    <a href="https://github.com/ciupagacz/TEBowo/tree/unstable">[unstable]</a>
+</div>
 
-## Status
-> Newest Version: **(B)1.011**;
-> Last Updated: **20-10-2025**;
+### About the project
+This project was created for the school I currently attend.
+It's a simple silly platformer with some silly mechanics and silly everything else.
 
-## License
-**This project uses MIT License**. You can read about it in **LICENSE.md** file.<br>
-Main font of this project is [orangeKid](https://www.1001fonts.com/orange-kid-font.html).
+### Current goal
+I wasn't working on this project for a long time.
+Right now I want to focus on fixing my terrible syntax and
+converting the project to **CoffeeScript**, which I started to love for no reason.
 
-## External
-**You can play the game [here](https://tebowo.pl/gra)**.
-**Read the changelog [here](https://pastebin.com/czx0T7u1)**.
+### Links and other stuff
+**You can play the game officially from [here](https://tebowo.pl/gra)**.
+To test the newest debug build try [this link](https://ciupagacz.github.io/TEBowo).
+Read the latest changelog [here](https://pastebin.com/czx0T7u1).
 
-### Have a Nice and Happy Day!
+### Status
+> Newest stable release: **B1.011**<br>
+> Newest unstable release: **20-10-2026**<br>
+
+### Project's license
+**This project uses MIT License**. It's going to be changed soon, so stay tuned!<br>
+This project uses orangeKid as it's main font,
+you can find it [here](https://www.1001fonts.com/orange-kid-font.html).

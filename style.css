@@ -1,44 +1,9 @@
-/*   ,-----,
- *   |     |   ,------------------------------------------,
- *   |     |   ( */*{ opacity:1; }/* pastebin.com/zdg35gef )
- *  (|-----|) < The project is licensed under MIT -^       |
- *  |\_____/|  "------------------------------------------"
- *  |       |    __---.
- *  ( o   o )   /      )
- *  \ = . = \__/    --"
- *  /              /
- * |              |
- *  \ \    \ \   |
- *   | |    | | /
- *  (_(_)--(_(_) */
-
-@font-face{
-  font-family:orangeKid;
-  src:url("orangeKid.otf")format("truetype");
+@font-face {
+  font-family: orangeKid;
+  src: url("orangeKid.otf") format("truetype");
 }
 
-@keyframes load{
-  0%{ transform:rotate(0turn); }
-  100%{ transform:rotate(3turn); }
-} @keyframes show{
-  0%{
-    visibility:visible;
-    opacity:0;
-  } 50%{ opacity:0; }
-  100%{
-    opacity:1;
-    visibility:visible;
-  }
-} @keyframes hide{
-  0%{
-    opacity:1;
-    visibility:visible;
-  } 100%{
-    opacity:0;
-    visibility:hidden;
-  }
-}
-
+/*
 @keyframes background{
   0%{ background-position:50%50%; }
   100%{ background-position:calc(50% + 6vw)calc(50% - 6vw); }
@@ -73,68 +38,49 @@
   0%{ background-color:#002f6d; }
   100%{ background-color:#ff0002; }
 }
+*/
 
-html{
-  background-color:#000019;
-  overflow:hidden;
-  user-select:none;
-  position:absolute;
-  width:100%;
-  height:100%;
-  top:-8px;
-  left:-8px;
-} body{
-  position:absolute;
-  height:100%;
-  width:100%;
-  background-image:url("tex/icon/general/arrow.png");
-  background-size:6vw;
-  background-repeat:repeat;
-  background-position:50%,50%;
-  animation-fill-mode:both;
-  image-rendering:pixelated;
-  image-rendering:crisp-edges;
-  animation:background 2s infinite linear;
+html {
+	overflow: hidden;
+	user-select: none;
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: -8px;
+	left: -8px;
+
+	background-color: #000019;
 }
 
-#render{
-  position:absolute;
-  visibility:hidden;
-  opacity:0;
-  overflow:hidden;
-  cursor:none;
-} #load{
-  position:fixed;
-  bottom:2vw;
-  right:2vw;
-  width:6vw;
-  height:6vw;
-  display:flex;
-  visibility:visible;
-  opacity:1;
-} #load::after{
-  content:"";
-  color:white;
-  width:4vw;
-  height:4vw;
-  border:1vw solid transparent;
-  border-top-color:white;
-  border-bottom-color:white;
-  border-radius:50%;
-  animation:load 1.5s ease infinite;
-} #error{
-  width:4vw;
-  height:4vw;
-  position:fixed;
-  bottom:3vw;
-  right:3vw;
-  visibility:hidden;
-  opacity:0;
+body {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+
+	/* background-image: url("tex/icon/general/arrow.png");
+	background-size: 6vw;
+	background-repeat: repeat;
+	background-position: 50%, 50%; */
+
+	animation-fill-mode: both;
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
+
+	/* animation: background 2s infinite linear; */
 }
 
-#render.show,#load.show,#error.show{ animation:show 1s forwards; }
-#render.hide,#load.hide,#error.hide{ animation:hide 0.15s forwards; }
+canvas {
+	position: absolute;
 
+	left: 0;
+	top: 0;
+
+	overflow: hidden;
+	cursor: none;
+}
+
+/*
 #html.blue-black{ animation:blue-black 1s forwards; }
 #html.cyan-black{ animation:cyan-black 1s forwards; }
 #html.red-black{ animation:red-black 1s forwards; }
@@ -145,3 +91,4 @@ html{
 #html.blue-cyan{ animation:blue-cyan 0.2s forwards; }
 #html.red-blue{ animation:red-blue 0.2s forwards; }
 #html.blue-red{ animation:blue-red 0.2s forwards; }
+*/
