@@ -1,6 +1,6 @@
 position = (x, y) ->
-	x : x
-	y : y
+	x: x
+	y: y
 
 object = (x, y, width, height, alpha = 100) ->
 	x: x
@@ -19,31 +19,25 @@ text = (x, y, size, value, rotation, alpha = 100) ->
 	rotation: rotation
 	alpha: alpha
 
-image = (source) ->
-	Object.assign(new Image(), { src: source })
-
 color = (r, g, b) ->
 	r: r
 	g: g
 	b: b
 
+image = (source) ->
+	Object.assign new Image(), { src: source }
+
+sound = (source) ->
+	Object.assign new Audio(), { src: source }
+
 window.scene = 0
 
-# temp
-window.objectA = object(0, 0, 1920, 1080)
-window.colorA = color(255, 0, 0)
-window.imageA = image("tex/back/teacher.png")
+window.menu =
+	background: [
+		object 0, 0, 0, 0
+		object 0, 0, 0, 0
+		object 0, 0, 0, 0
+		object 0, 0, 0, 0
+	]
 
-window.menuBackground = [
-	object(0, 0, 1280, 720)
-	object(-1280, 0, 1280, 720)
-	object(0, -720, 1280, 720)
-	object(-1280, -720, 1280, 720)
-]
-
-window.menuBackgroundSource = [
-	image("tex/back/menu.png")
-	image("tex/back/menu.png")
-	image("tex/back/menu.png")
-	image("tex/back/menu.png")
-]
+	backgroundSrc: image "tex/back/menu.png"
