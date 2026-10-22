@@ -1,5 +1,6 @@
 node_modules
-src/old
+assets/old
+source/old
 Makefile
 package-lock.json
 package.json

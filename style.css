@@ -3,43 +3,6 @@
   src: url("orangeKid.otf") format("truetype");
 }
 
-/*
-@keyframes background{
-  0%{ background-position:50%50%; }
-  100%{ background-position:calc(50% + 6vw)calc(50% - 6vw); }
-} @keyframes blue-black{
-  0%{ background-color:#002f6d; }
-  100%{ background-color:#000019; }
-} @keyframes cyan-black{
-  0%{ background-color:#037aa2; }
-  100%{ background-color:#000019; }
-} @keyframes red-black{
-  0%{ background-color:#ff0002; }
-  100%{ background-color:#000019; }
-} @keyframes black-blue{
-  0%{ background-color:#000019; }
-  100%{ background-color:#002f6d; }
-} @keyframes black-cyan{
-  0%{ background-color:#000019; }
-  100%{ background-color:#037aa2; }
-} @keyframes black-red{
-  0%{ background-color:#000019; }
-  100%{ background-color:#ff0002; }
-} @keyframes cyan-red{
-  0%{ background-color:#037aa2; }
-  100%{ background-color:#ff0002; }
-} @keyframes blue-cyan{
-  0%{ background-color:#002f6d; }
-  100%{ background-color:#037aa2; }
-} @keyframes red-blue{
-  0%{ background-color:#ff0002; }
-  100%{ background-color:#002f6d; }
-} @keyframes blue-red{
-  0%{ background-color:#002f6d; }
-  100%{ background-color:#ff0002; }
-}
-*/
-
 html {
 	overflow: hidden;
 	user-select: none;
@@ -58,37 +21,14 @@ body {
 	height: 100%;
 	width: 100%;
 
-	/* background-image: url("tex/icon/general/arrow.png");
-	background-size: 6vw;
-	background-repeat: repeat;
-	background-position: 50%, 50%; */
-
-	animation-fill-mode: both;
-	image-rendering: pixelated;
-	image-rendering: crisp-edges;
-
-	/* animation: background 2s infinite linear; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 canvas {
-	position: absolute;
-
-	left: 0;
-	top: 0;
-
 	overflow: hidden;
 	cursor: none;
-}
 
-/*
-#html.blue-black{ animation:blue-black 1s forwards; }
-#html.cyan-black{ animation:cyan-black 1s forwards; }
-#html.red-black{ animation:red-black 1s forwards; }
-#html.black-blue{ animation:black-blue 1s forwards; }
-#html.black-cyan{ animation:black-cyan 1s forwards; }
-#html.black-red{ animation:black-red 1s forwards; }
-#html.cyan-red{ animation:cyan-red 0.2s forwards; }
-#html.blue-cyan{ animation:blue-cyan 0.2s forwards; }
-#html.red-blue{ animation:red-blue 0.2s forwards; }
-#html.blue-red{ animation:blue-red 0.2s forwards; }
-*/
+	image-rendering: pixelated;
+}

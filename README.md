@@ -22,7 +22,7 @@ Read the latest changelog [here](https://pastebin.com/czx0T7u1).
 
 ### Status
 > Newest stable release: **B1.011**<br>
-> Newest unstable release: **21-10-2026**<br>
+> Newest unstable release: **22-10-2026**<br>
 
 ### Project's license
 **This project uses MIT License**. It's going to be changed soon, so stay tuned!<br>
